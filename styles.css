@@ -1,0 +1,39 @@
+body {font-family: sans-serif;
+text-align: center;}
+
+#about {margin-right: 50px;}
+
+#store {margin-right: 500px;}
+
+#gmail {margin-right: 50px;}
+
+#images {margin-right: 50px;}
+
+#google-apps {margin-right: 50px;}
+
+#sign-in {background-color: rgb(96, 96, 240);
+color: white;}
+
+#google-logo{
+margin-top: 200px;}
+
+#search {border-radius: 20px;
+height: 40px;
+width: 550px;}
+
+#google-search, #feeling-lucky {height: 35px;
+width: 135px;%)
+radius: 5px;}
+
+footer {background-color: rgb(231, 227, 227);
+font-family: sans-serif;
+position: absolute;
+bottom: 0px;
+left: 0px;
+right:0px;}
+
+#advertising, #business {margin-right: 50px;}
+
+#how {margin-right: 500px;}
+
+#privacy, #terms {margin-right: 50px;}
