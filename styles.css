@@ -1,39 +1,62 @@
 body {font-family: sans-serif;
 text-align: center;}
 
-#about {margin-right: 50px;}
+#nav-links {margin-top: 30px;}
+
+#about, #store, #gmail, #images, #google-apps, #sign-in {text-decoration: none; 
+font-size: 80%; color: gray;}
+
+#about {margin-right: 5px;}
 
 #store {margin-right: 500px;}
 
-#gmail {margin-right: 50px;}
+#gmail {margin-right: 5px;}
 
-#images {margin-right: 50px;}
+#images {margin-right: 5px;}
 
-#google-apps {margin-right: 50px;}
+#google-apps {margin-right: 5px;}
+
+#about, #store {float: left; margin-left: 20px;}
+
+#gmail, #images, #google-apps, #sign-in {float: right; margin-right: 20px;}
 
 #sign-in {background-color: rgb(96, 96, 240);
-color: white;}
+color: white;
+width: 75px;
+height: 35px;
+margin-top: -10px;}
 
 #google-logo{
-margin-top: 200px;}
+margin-top: 120px;}
 
 #search {border-radius: 20px;
 height: 40px;
 width: 550px;}
 
 #google-search, #feeling-lucky {height: 35px;
-width: 135px;%)
-radius: 5px;}
+width: 135px;
+border-radius: 5px;
+background-color: hsl(0, 0%, 95%);}
 
 footer {background-color: rgb(231, 227, 227);
 font-family: sans-serif;
 position: absolute;
 bottom: 0px;
 left: 0px;
-right:0px;}
+right:0px;
+padding-bottom: 10px;
+padding-top: 10px;
+font-size: 90%}
 
-#advertising, #business {margin-right: 50px;}
+#advertising, #business {margin-right: 20px;}
 
 #how {margin-right: 500px;}
 
-#privacy, #terms {margin-right: 50px;}
+#privacy, #terms {margin-right: 20px;}
+
+#advertising, #business, #how, #privacy, #terms, #settings {text-decoration: none;
+color: gray;}
+
+#advertising, #business, #how {float: left; margin-left: 20px;}
+
+#privacy, #terms, #settings {float: right; margin-right: 20px;}
