@@ -1,10 +1,14 @@
 body {font-family: sans-serif;
 text-align: center;}
 
-#nav-links {margin-top: 30px;}
+
+#navigation {display: flex; margin-top: 30px;}
 
 #about, #store, #gmail, #images, #google-apps, #sign-in {text-decoration: none; 
 font-size: 80%; color: gray;}
+
+.left {flex-direction: row; justify-content: left;}
+.right {flex-direction: row; justify-content: right; flex: 1;}
 
 #about {margin-right: 5px;}
 
@@ -16,9 +20,9 @@ font-size: 80%; color: gray;}
 
 #google-apps {margin-right: 5px;}
 
-#about, #store {float: left; margin-left: 20px;}
+#about, #store { margin-left: 20px;}
 
-#gmail, #images, #google-apps, #sign-in {float: right; margin-right: 20px;}
+#gmail, #images, #google-apps, #sign-in { margin-right: 20px;}
 
 #sign-in {background-color: rgb(96, 96, 240);
 color: white;
@@ -28,6 +32,13 @@ margin-top: -10px;}
 
 #google-logo{
 margin-top: 120px;}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 #search {border-radius: 20px;
 height: 40px;
@@ -57,6 +68,8 @@ font-size: 90%}
 #advertising, #business, #how, #privacy, #terms, #settings {text-decoration: none;
 color: gray;}
 
-#advertising, #business, #how {float: left; margin-left: 20px;}
+#footer-links {display: flex;}
 
-#privacy, #terms, #settings {float: right; margin-right: 20px;}
+#advertising, #business, #how {margin-left: 20px;}
+
+#privacy, #terms, #settings {margin-right: 20px;}
