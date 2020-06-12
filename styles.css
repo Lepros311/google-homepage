@@ -24,6 +24,10 @@ font-size: 80%; color: gray;}
 
 #gmail, #images, #google-apps, #sign-in { margin-right: 20px;}
 
+#apps {width: 60%;
+height: 75%;
+margin-top: -10%;}
+
 #sign-in {background-color: rgb(96, 96, 240);
 color: white;
 width: 75px;
